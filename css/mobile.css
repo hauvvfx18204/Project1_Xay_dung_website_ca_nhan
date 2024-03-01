@@ -1,0 +1,11 @@
+/* khi kich thuoc man hinh tu 576px tro xuong  */
+@media screen and (max-width: 576px) {
+  .mobile-footer {
+    gap: 0px; /* cho khoang cach gap trong flexbox cua class mobile-footer bang 0 */
+    font-size: 12px; /* cho kich thuoc cua font chu trong class mobile-footer laf 12px */
+  }
+
+  .block-name {
+    display: none; /* khong cho class block-name xuat hien khi man hinh co kich thuong 992px tron xuong */
+  }
+}

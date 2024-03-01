@@ -1,0 +1,13 @@
+/* khi kich thuoc man hinh tu 992px tro xuong  */
+@media screen and (max-width: 992px) {
+  .flex {
+    display: flex; /* tao flexbox cho cac phan tu trong class flex*/
+    flex-direction: column; /* thiet lap flexbox theo chieu doc */
+    justify-content: center; /* can chinh vi tri cac phan tu theo chieu main axis */
+    gap: 5px; /* thiet lap khoang cach giua cac phan tu */
+  }
+
+  .block-name {
+    display: none; /* khong cho class block-name xuat hien khi man hinh co kich thuong 992px tron xuong */
+  }
+}

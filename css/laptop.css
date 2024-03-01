@@ -1,0 +1,162 @@
+/*
+    SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+    FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  position: relative; /* thiet lap vi tri mo neo cho phan tu duoc thiet lap vi tri tuyet doi */
+  height: 100vh; /* thiet lap chieu cao dung bang khung hinh */
+}
+
+.title {
+  position: absolute; /* thiet lap vi tri tuyet doi cho phan tu torng class title */
+  top: 20%; /* thiet lap vi tri tuyet doi cach top 20%  */
+  left: 50%; /* thiet lap vi tri tuyet doi cach left 50  */
+  transform: translate(
+    -50%,
+    50%
+  ); /* di chuyen vi tri phan tu qua trai va xuong duoi bang 50% kich thuoc cua chinh phan tu do*/
+}
+
+.icon {
+  color: #5c7cfa; /* thiet lap mau cho phan tu con ben trong class icon */
+}
+
+.color-1 {
+  background-color: #dee2e6; /* tao mau background cho phan muc tieu nghe nghiep */
+}
+
+.color-2 {
+  background-color: #ced4da; /* tao mau background cho phan thong tin ca nhan */
+}
+
+.info {
+  list-style: none; /* xoa style mac dinh cho the ul */
+}
+
+.hoatdong,
+.sothich,
+.ngonngu,
+.kynang,
+.kinknghiem,
+.hocvan {
+  border: 1px solid #868e96; /* tao border cho cac class tren */
+}
+
+/* icons */
+.ic-telescope,
+.ic-tools-2,
+.ic-mic,
+.ic-pencil,
+.ic-toolbox {
+  transform: scale(2); /* phong to icon 2 lan */
+  align-self: center; /* dinh lai vi tri cho icon */
+}
+
+/* so thich */
+.ic-megaphone,
+.ic-basket {
+  width: 32px; /* thiet lap do rong cho icon */
+  height: 32px; /* thiet lap chieu cao cho icon */
+  transform: translate(
+    10%,
+    15%
+  ); /* di chuyen vi tri phan tu sang phai 10%  va len tren 15% so voi kich thuoc cua chinh phan tu do*/
+}
+
+.ic-strategy,
+.ic-hotairballoon {
+  width: 32px;
+  height: 32px;
+  transform: translate(
+    25%,
+    15%
+  ); /* di chuyen vi tri phan tu sang phai 25%  va len tren 15% so voi kich thuoc cua chinh phan tu do*/
+}
+
+.circle-icon {
+  border-radius: 50%; /* tao border chay quanh icon la hinh tron */
+  width: 32px; /* do rong */
+  height: 32px; /* chieu cao */
+  border: 1px solid #5c7cfa; /* tao border chay quanh icon */
+}
+
+.line-blue {
+  background: #199cdb;
+  display: inline-block; /* thiet lap class line-blue la inline-block*/
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* project */
+
+.title-project {
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #dee2e6;
+}
+
+.title-develop {
+  padding-top: 20px;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  gap: 20px;
+  overflow: visible;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.span-project {
+  background-color: #199cdb;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+table {
+  border: 1px solid #dee2e6;
+  border-collapse: collapse; /* ghep 2 border gan nhau thanh 1 */
+}
+
+th,
+td {
+  border-bottom: 1px solid #dee2e6;
+  padding: 5px;
+  font-size: 12px;
+  text-align: left; /* van ban ben trong table ve ben trai*/
+}
+
+/* footer */
+
+.bgFooter,
+.bgCertificate {
+  background-color: #dee2e6;
+}
+
+.borCer {
+  border-bottom: 1px solid #f08c00;
+}
+
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  transform: scale(2);
+  align-self: center;
+}
